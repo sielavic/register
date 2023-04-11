@@ -1,4 +1,5 @@
-    public function register(Request $request)
+<?php    
+public function register(Request $request)
     {
         $data =[];
         //здесь проверка логина на уникальность
